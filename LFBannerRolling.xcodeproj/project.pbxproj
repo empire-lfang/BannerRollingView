@@ -15,6 +15,10 @@
 		183CB5C91DE42C6B004614DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183CB5C71DE42C6B004614DD /* LaunchScreen.storyboard */; };
 		183CB5D41DE42C6B004614DD /* LFBannerRollingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CB5D31DE42C6B004614DD /* LFBannerRollingTests.m */; };
 		183CB5DF1DE42C6B004614DD /* LFBannerRollingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183CB5DE1DE42C6B004614DD /* LFBannerRollingUITests.m */; };
+		1870F7081DEFCD6E009F3DC5 /* LFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870F7071DEFCD6E009F3DC5 /* LFTableViewController.m */; };
+		1870F70B1DEFCDC1009F3DC5 /* LFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870F70A1DEFCDC1009F3DC5 /* LFTableViewCell.m */; };
+		187E13311DE5641200D110FB /* LFBannerRollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187E13301DE5641200D110FB /* LFBannerRollingView.m */; };
+		4820BC250D943A879ADA8E89 /* libPods-LFBannerRolling.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 045C0518F700F1F32304610B /* libPods-LFBannerRolling.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045C0518F700F1F32304610B /* libPods-LFBannerRolling.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFBannerRolling.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183CB5B61DE42C6B004614DD /* LFBannerRolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFBannerRolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183CB5BA1DE42C6B004614DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		183CB5BC1DE42C6B004614DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,14 @@
 		183CB5DA1DE42C6B004614DD /* LFBannerRollingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFBannerRollingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183CB5DE1DE42C6B004614DD /* LFBannerRollingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBannerRollingUITests.m; sourceTree = "<group>"; };
 		183CB5E01DE42C6B004614DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1870F7061DEFCD6E009F3DC5 /* LFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTableViewController.h; sourceTree = "<group>"; };
+		1870F7071DEFCD6E009F3DC5 /* LFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTableViewController.m; sourceTree = "<group>"; };
+		1870F7091DEFCDC1009F3DC5 /* LFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFTableViewCell.h; path = LFBnnerRollingView/LFTableViewCell.h; sourceTree = "<group>"; };
+		1870F70A1DEFCDC1009F3DC5 /* LFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFTableViewCell.m; path = LFBnnerRollingView/LFTableViewCell.m; sourceTree = "<group>"; };
+		187E132F1DE5641200D110FB /* LFBannerRollingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFBannerRollingView.h; sourceTree = "<group>"; };
+		187E13301DE5641200D110FB /* LFBannerRollingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFBannerRollingView.m; sourceTree = "<group>"; };
+		3644E2CD6292EF51528CBC62 /* Pods-LFBannerRolling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFBannerRolling.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFBannerRolling/Pods-LFBannerRolling.release.xcconfig"; sourceTree = "<group>"; };
+		47FC3D14B5048D7F4C270549 /* Pods-LFBannerRolling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFBannerRolling.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFBannerRolling/Pods-LFBannerRolling.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4820BC250D943A879ADA8E89 /* libPods-LFBannerRolling.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				183CB5D21DE42C6B004614DD /* LFBannerRollingTests */,
 				183CB5DD1DE42C6B004614DD /* LFBannerRollingUITests */,
 				183CB5B71DE42C6B004614DD /* Products */,
+				EF4CD48466FCF65350721098 /* Pods */,
+				3F9E206AA9829C47AF55BD07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +117,15 @@
 		183CB5B81DE42C6B004614DD /* LFBannerRolling */ = {
 			isa = PBXGroup;
 			children = (
+				187E132E1DE5641200D110FB /* LFBnnerRollingView */,
 				183CB5BC1DE42C6B004614DD /* AppDelegate.h */,
 				183CB5BD1DE42C6B004614DD /* AppDelegate.m */,
 				183CB5BF1DE42C6B004614DD /* ViewController.h */,
 				183CB5C01DE42C6B004614DD /* ViewController.m */,
+				1870F7061DEFCD6E009F3DC5 /* LFTableViewController.h */,
+				1870F7071DEFCD6E009F3DC5 /* LFTableViewController.m */,
+				1870F7091DEFCDC1009F3DC5 /* LFTableViewCell.h */,
+				1870F70A1DEFCDC1009F3DC5 /* LFTableViewCell.m */,
 				183CB5C21DE42C6B004614DD /* Main.storyboard */,
 				183CB5C51DE42C6B004614DD /* Assets.xcassets */,
 				183CB5C71DE42C6B004614DD /* LaunchScreen.storyboard */,
@@ -140,6 +161,32 @@
 			path = LFBannerRollingUITests;
 			sourceTree = "<group>";
 		};
+		187E132E1DE5641200D110FB /* LFBnnerRollingView */ = {
+			isa = PBXGroup;
+			children = (
+				187E132F1DE5641200D110FB /* LFBannerRollingView.h */,
+				187E13301DE5641200D110FB /* LFBannerRollingView.m */,
+			);
+			path = LFBnnerRollingView;
+			sourceTree = "<group>";
+		};
+		3F9E206AA9829C47AF55BD07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045C0518F700F1F32304610B /* libPods-LFBannerRolling.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF4CD48466FCF65350721098 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47FC3D14B5048D7F4C270549 /* Pods-LFBannerRolling.debug.xcconfig */,
+				3644E2CD6292EF51528CBC62 /* Pods-LFBannerRolling.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183CB5E31DE42C6B004614DD /* Build configuration list for PBXNativeTarget "LFBannerRolling" */;
 			buildPhases = (
+				607E49E864E5936EBA413BE1 /* [CP] Check Pods Manifest.lock */,
 				183CB5B21DE42C6B004614DD /* Sources */,
 				183CB5B31DE42C6B004614DD /* Frameworks */,
 				183CB5B41DE42C6B004614DD /* Resources */,
+				A82E2DA6D2C7437AEA7CB08E /* [CP] Embed Pods Frameworks */,
+				73DC381499BB380FA2966BEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +252,7 @@
 		183CB5AE1DE42C6B004614DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LF;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = aowokeji;
 				TargetAttributes = {
@@ -271,6 +322,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		607E49E864E5936EBA413BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73DC381499BB380FA2966BEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFBannerRolling/Pods-LFBannerRolling-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82E2DA6D2C7437AEA7CB08E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LFBannerRolling/Pods-LFBannerRolling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		183CB5B21DE42C6B004614DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,7 +377,10 @@
 			files = (
 				183CB5C11DE42C6B004614DD /* ViewController.m in Sources */,
 				183CB5BE1DE42C6B004614DD /* AppDelegate.m in Sources */,
+				187E13311DE5641200D110FB /* LFBannerRollingView.m in Sources */,
+				1870F7081DEFCD6E009F3DC5 /* LFTableViewController.m in Sources */,
 				183CB5BB1DE42C6B004614DD /* main.m in Sources */,
+				1870F70B1DEFCDC1009F3DC5 /* LFTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +525,12 @@
 		};
 		183CB5E41DE42C6B004614DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47FC3D14B5048D7F4C270549 /* Pods-LFBannerRolling.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9YF7EVB686;
 				INFOPLIST_FILE = LFBannerRolling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aowokeji.LFBannerRolling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,10 +539,12 @@
 		};
 		183CB5E51DE42C6B004614DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3644E2CD6292EF51528CBC62 /* Pods-LFBannerRolling.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9YF7EVB686;
 				INFOPLIST_FILE = LFBannerRolling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aowokeji.LFBannerRolling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +620,7 @@
 				183CB5E51DE42C6B004614DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183CB5E61DE42C6B004614DD /* Build configuration list for PBXNativeTarget "LFBannerRollingTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +629,7 @@
 				183CB5E81DE42C6B004614DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183CB5E91DE42C6B004614DD /* Build configuration list for PBXNativeTarget "LFBannerRollingUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +638,7 @@
 				183CB5EB1DE42C6B004614DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

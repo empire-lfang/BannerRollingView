@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "183CB5B51DE42C6B004614DD"
+               BuildableName = "LFBannerRolling.app"
+               BlueprintName = "LFBannerRolling"
+               ReferencedContainer = "container:LFBannerRolling.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "183CB5CE1DE42C6B004614DD"
+               BuildableName = "LFBannerRollingTests.xctest"
+               BlueprintName = "LFBannerRollingTests"
+               ReferencedContainer = "container:LFBannerRolling.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "183CB5D91DE42C6B004614DD"
+               BuildableName = "LFBannerRollingUITests.xctest"
+               BlueprintName = "LFBannerRollingUITests"
+               ReferencedContainer = "container:LFBannerRolling.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "183CB5B51DE42C6B004614DD"
+            BuildableName = "LFBannerRolling.app"
+            BlueprintName = "LFBannerRolling"
+            ReferencedContainer = "container:LFBannerRolling.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "183CB5B51DE42C6B004614DD"
+            BuildableName = "LFBannerRolling.app"
+            BlueprintName = "LFBannerRolling"
+            ReferencedContainer = "container:LFBannerRolling.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "183CB5B51DE42C6B004614DD"
+            BuildableName = "LFBannerRolling.app"
+            BlueprintName = "LFBannerRolling"
+            ReferencedContainer = "container:LFBannerRolling.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
